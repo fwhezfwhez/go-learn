@@ -2,6 +2,7 @@
 需要在本机上安装好docker
 
 **拉取镜像，运行,进入容器，进入数据库**
+
 `docker run --rm -itd -p 5432:5432 -e POSTGRES_PASSWORD=123 --name postgres postgres:9.6`
 
 `docker exec -it postgres sh`
