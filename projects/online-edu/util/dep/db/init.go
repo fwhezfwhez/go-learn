@@ -21,7 +21,7 @@ func init() {
 		"postgres",
 		"disable",
 		"123",
-		"5435",
+		"5432",
 	)
 	log.Println(dbConfig)
 	db, err := gorm.Open("postgres",
